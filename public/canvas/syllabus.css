@@ -1,0 +1,14 @@
+h2 {
+    background-color: purple;
+    color: white;
+}
+
+p {
+    background-color: blue;
+    color: white;
+}
+
+p#goals {
+    background-color: blue;
+    color: yellow;
+}

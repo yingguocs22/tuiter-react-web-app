@@ -1,0 +1,26 @@
+h1 {
+    font-size: 2em;
+    color: olivedrab;
+    background-color: antiquewhite;
+}
+
+.bg-black {
+    background-color: gray;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.col {
+    float: left;
+    width: 33%;
+}
+
+.row {
+    clear: both;
+}
