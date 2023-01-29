@@ -1,0 +1,158 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+    padding-left: 16px;
+    padding-top: 5px;
+}
+
+.fg-color-white {
+    color: white;
+}
+
+.fg-color-blue {
+    color: #0073ff;
+}
+
+.bg-color-dark-gray {
+    background-color: darkgray;
+}
+
+.search-bar-container {
+    background-color: darkgray;
+    width: 400px;
+    display: flex;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 16px;
+}
+
+input {
+    width: 90%;
+    background-color: darkgray;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding-left: 10px;
+    margin: 5px;
+}
+
+.search-icon {
+    width: 5%;
+    text-align: center;
+    margin: 10px;
+    align-items: center;
+}
+
+.gear-icon {
+    font-size: 30px;
+    position: relative;
+    padding-right: 12px;
+    margin-top: 4px;
+}
+
+.float-left-85 {
+    float: left;
+    width: 85%;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-done {
+    clear: both;
+}
+
+.navigation-bar {
+    color: white;
+    /*overflow: hidden;*/
+    /*border-style: solid;*/
+    /*border-color: white;*/
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+}
+
+.navigation-bar a {
+    float: left;
+    width: 16.6%;
+    height: 30px;
+    color: rgb(110, 118, 125);
+    border-bottom-color: rgb(47, 51, 54);
+    border-bottom-style: solid;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.navigation-bar a.active {
+    color: rgb(29,161,242);
+    border-bottom-color: rgb(29,161,242);
+    border-bottom-width: 3px;
+}
+
+.row {
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+    margin-right: 16px;
+}
+
+.light-topic {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+
+.gray-topic {
+    font-size: 13px;
+    color: lightgray;
+}
+
+.white-topic {
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+}
+
+.title-or-name {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.number_of_tuits {
+    font-size: 12px;
+    color: rgb(110, 118, 125);
+}
+
+.content div {
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.float-right-image {
+    float: right;
+    width: 100px;
+    height: 100px;
+    margin-right: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-radius: 15px;
+}
+
+.float-done {
+    clear: both;
+}
+
+.content {
+    float: left;
+}
+
+
+
+
+
