@@ -1,0 +1,156 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+    /*padding-left: 16px;*/
+    /*padding-top: 5px;*/
+}
+
+.head {
+    border-style: solid;
+    border-bottom-color: rgb(47, 51, 54);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.title {
+    color: white;
+    font-size: 20px;
+    margin-left: 16px;
+    margin-top: 12px;
+}
+
+.handle {
+    color: lightgray;
+    font-size: 13px;
+    margin-left: 16px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.post {
+    color: white;
+    display: flex;
+    justify-content:flex-start;
+}
+
+.avatar {
+    margin-left: 16px;
+    margin-top: 12px;
+    text-align: center;
+
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+}
+
+.text {
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+.name {
+    font-size: 15px;
+}
+
+.main-content {
+    color: white;
+    font-size: 15px;
+    max-width: 506px;
+    margin-right: 16px;
+    margin-bottom: 12px;
+}
+
+.content-image {
+    width: 504px;
+    height: 264px;
+    margin-right: 16px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    display: block;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(47, 51, 54);
+}
+
+.second-content {
+    max-width: 482px;
+    padding: 12px;
+    margin-right: 16px;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(47, 51, 54);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.second-content-title {
+    overflow: hidden;
+    margin-top: 12px;
+}
+
+.second-content-text {
+
+}
+
+.icon-container {
+    color: white;
+    display: flex;
+    align-items: center;
+    max-width: 506px;
+    margin-right: 16px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.icon-container a {
+    float: left;
+    width: 25%;
+    decoration: none;
+    color: rgb(47, 51, 54);
+}
+
+.icon-container a span {
+    position: absolute;
+    margin-left: 12px;
+    font-size: 15px;
+}
+
+.icon-container a.active {
+    color: palevioletred;
+}
+
+.colored-hr {
+    margin: 0;
+    padding: 0;
+    border: 0.5px solid rgb(110, 118, 125);
+}
+
+.icon {
+    margin-right: 12px;
+}
+
+.font-size-15 {
+    font-size: 15px;
+}
+
+.fg-color-white {
+    color: white;
+}
+
+.fg-color-light-gray {
+    color: rgb(110, 118, 125);
+}
+
+.bar {
+    color: white;
+    display: flex;
+    justify-content:flex-start;
+}
+
+.text {
+    width: 100%;
+}
