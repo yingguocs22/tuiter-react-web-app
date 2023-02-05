@@ -3,23 +3,26 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     border-style: solid;
     border-color: rgb(47, 51, 54);
-    padding-left: 16px;
     padding-top: 5px;
 }
 
-.fg-color-white {
+.left_16px {
+    margin-left: 16px;
+}
+
+.wd-fg-color-white {
     color: white;
 }
 
-.fg-color-blue {
-    color: #0073ff;
+.wd-fg-color-blue {
+    color: rgb(29,161,242);
 }
 
-.bg-color-dark-gray {
+.wd-bg-color-dark-gray {
     background-color: darkgray;
 }
 
-.search-bar-container {
+.wd-search-bar-container {
     background-color: darkgray;
     width: 400px;
     display: flex;
@@ -40,46 +43,47 @@ input {
     margin: 5px;
 }
 
-.search-icon {
+.wd-search-icon {
     width: 5%;
     text-align: center;
-    margin: 10px;
     align-items: center;
 }
 
-.gear-icon {
+.wd-gear-icon {
     font-size: 30px;
-    position: relative;
     padding-right: 12px;
-    margin-top: 4px;
+    color: rgb(29,161,242);
+    decoration: none;
 }
 
-.float-left-85 {
+.wd-float-left-85 {
     float: left;
     width: 85%;
 }
 
-.float-right {
+.wd-float-right {
     float: right;
 }
 
-.float-done {
+.wd-float-left {
+    float: left;
+}
+
+.wd-float-done {
     clear: both;
 }
 
-.navigation-bar {
+.wd-navigation-bar {
     color: white;
-    /*overflow: hidden;*/
-    /*border-style: solid;*/
-    /*border-color: white;*/
-    padding-top: 16px;
-    padding-right: 16px;
-    padding-bottom: 16px;
+    overflow: hidden;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(47, 51, 54);
+    padding: 16px;
 }
 
-.navigation-bar a {
+.wd-navigation-bar a {
     float: left;
-    width: 16.6%;
+    width: 16.66%;
     height: 30px;
     color: rgb(110, 118, 125);
     border-bottom-color: rgb(47, 51, 54);
@@ -89,52 +93,64 @@ input {
     font-size: 15px;
 }
 
-.navigation-bar a.active {
+.wd-navigation-bar a.active {
     color: rgb(29,161,242);
     border-bottom-color: rgb(29,161,242);
     border-bottom-width: 3px;
 }
 
-.row {
-    border-style: solid;
-    border-color: rgb(47, 51, 54);
-    margin-right: 16px;
+.wd-row {
+    border-bottom-style: solid;
+    border-bottom-color: rgb(47, 51, 54);
 }
 
-.light-topic {
+.wd-light-topic {
     font-size: 13px;
     color: rgb(110, 118, 125);
 }
 
-.gray-topic {
+.wd-gray-topic {
     font-size: 13px;
     color: lightgray;
 }
 
-.white-topic {
+.wd-white-topic {
     font-size: 13px;
     font-weight: bold;
     color: white;
 }
 
-.title-or-name {
+.wd-title-or-name {
     font-size: 15px;
     font-weight: bold;
     color: white;
 }
 
-.number_of_tuits {
+.wd-number_of_tuits {
     font-size: 12px;
     color: rgb(110, 118, 125);
 }
 
-.content div {
-    padding-left: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+.wd-number_of_tuits {
+    font-size: 12px;
+    color: rgb(110, 118, 125);
 }
 
-.float-right-image {
+.wd-content {
+    float: left;
+    width: 85%
+}
+
+.wd-content div {
+    /*padding-left: 16px;*/
+    /*padding-top: 5px;*/
+    /*padding-bottom: 5px;*/
+    margin-left: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.wd-float-right-image {
     float: right;
     width: 100px;
     height: 100px;
@@ -144,12 +160,16 @@ input {
     border-radius: 15px;
 }
 
-.float-done {
+.wd-float-done {
     clear: both;
 }
 
-.content {
+.wd-content {
     float: left;
+}
+
+.wd-back-bottom {
+    padding: 5px;
 }
 
 
