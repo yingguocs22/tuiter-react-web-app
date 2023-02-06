@@ -316,9 +316,9 @@ p#id-selector-2 {
 .my-gradients-positioned {
     background:
             radial-gradient(
-                    at bottom left, palevioletred, blue);
+                    at bottom left, yellow, darkslategrey);
     width: 200px;
-    color: white;
+    color: black;
 }
 
 .animation-keyframes {
@@ -377,8 +377,6 @@ p#id-selector-2 {
     width: 150px;
     height: 150px;
     line-height: 150px;
-    /*margin: auto;*/
-    /*padding: 10% 0;*/
     text-align: center;
     align-items: center;
     border-radius: 50%;
@@ -464,17 +462,17 @@ p#id-selector-2 {
     justify-content: space-between;
 }
 
-.flex-start {
+.flex-top {
     justify-content: space-evenly;
     align-items: flex-start;
 }
 
-.flex-center {
+.flex-mid {
     justify-content: space-evenly;
     align-items: center;
 }
 
-.flex-end {
+.flex-bottom {
     justify-content: space-evenly;
     align-items: flex-end;
 }
@@ -509,7 +507,7 @@ p#id-selector-2 {
 @media (min-width: 0px)
 and (max-width: 600px) {
     .media-queries-head {
-        color: black;
+        color: blue;
         padding: 10px;
     }
     .media-queries-bg {
@@ -520,7 +518,7 @@ and (max-width: 600px) {
     }
     .media-query-text {
         background-color: palegoldenrod;
-        color: black;
+        color: gray;
         border: 1px palegoldenrod solid;
         margin: 10px;
         padding: 10px;
@@ -529,7 +527,7 @@ and (max-width: 600px) {
 @media (min-width: 600px)
 and (max-width: 1200px) {
     .media-queries-head {
-        color: black;
+        color: white;
         padding: 10px;
     }
     .media-queries-bg {
@@ -540,7 +538,7 @@ and (max-width: 1200px) {
     }
     .media-query-text {
         background-color: palevioletred;
-        color: black;
+        color: white;
         border: 1px palevioletred solid;
         margin: 10px;
         padding: 10px;
@@ -549,7 +547,7 @@ and (max-width: 1200px) {
 @media (min-width: 1200px)
 and (max-width: 1800px) {
     .media-queries-head {
-        color: gray;
+        color: black;
         padding: 10px;
     }
     .media-queries-bg {
@@ -560,7 +558,7 @@ and (max-width: 1800px) {
     }
     .media-query-text {
         background-color: floralwhite;
-        color: gray;
+        color: black;
         border: 1px floralwhite solid;
         margin: 10px;
         padding: 10px;
