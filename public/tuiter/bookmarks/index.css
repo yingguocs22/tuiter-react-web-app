@@ -3,39 +3,34 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     border-style: solid;
     border-color: rgb(47, 51, 54);
-    /*padding-left: 16px;*/
-    /*padding-top: 5px;*/
 }
 
-.head {
-    border-style: solid;
+.wd-light-gray-solid-bottom-border {
     border-bottom-color: rgb(47, 51, 54);
     border-bottom-style: solid;
     border-bottom-width: 1px;
 }
 
-.title {
-    color: white;
+.wd-title {
     font-size: 20px;
     margin-left: 16px;
     margin-top: 12px;
 }
 
-.handle {
-    color: lightgray;
+.wd-handle {
     font-size: 13px;
     margin-left: 16px;
     margin-top: 12px;
     margin-bottom: 12px;
 }
 
-.post {
+.wd-post {
     color: white;
     display: flex;
     justify-content:flex-start;
 }
 
-.avatar {
+.wd-avatar {
     margin-left: 16px;
     margin-top: 12px;
     text-align: center;
@@ -44,37 +39,35 @@ body {
     width: 48px;
 }
 
-.text {
+.wd-text {
     margin-left: 12px;
     margin-top: 12px;
 }
 
-.name {
+.wd-name {
     font-size: 15px;
 }
 
-.main-content {
-    color: white;
+.wd-main-content {
     font-size: 15px;
     max-width: 506px;
     margin-right: 16px;
     margin-bottom: 12px;
 }
 
-.content-image {
+.wd-content-image {
     width: 504px;
     height: 264px;
     margin-right: 16px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     display: block;
-
     border-style: solid;
     border-width: 1px;
     border-color: rgb(47, 51, 54);
 }
 
-.second-content {
+.wd-second-content {
     max-width: 482px;
     padding: 12px;
     margin-right: 16px;
@@ -86,16 +79,12 @@ body {
     border-bottom-right-radius: 30px;
 }
 
-.second-content-title {
+.wd-second-content-title {
     overflow: hidden;
     margin-top: 12px;
 }
 
-.second-content-text {
-
-}
-
-.icon-container {
+.wd-icon-container {
     color: white;
     display: flex;
     align-items: center;
@@ -105,51 +94,51 @@ body {
     margin-top: 12px;
 }
 
-.icon-container a {
+.wd-icon-container a {
     float: left;
     width: 25%;
     decoration: none;
     color: rgb(47, 51, 54);
 }
 
-.icon-container a span {
+.wd-icon-container a span {
     position: absolute;
     margin-left: 12px;
     font-size: 15px;
 }
 
-.icon-container a.active {
-    color: palevioletred;
+.wd-icon-container a.active {
+    color: mediumvioletred;
 }
 
-.colored-hr {
+.wd-colored-hr {
     margin: 0;
     padding: 0;
-    border: 0.5px solid rgb(110, 118, 125);
+    border: 0.5px solid rgb(47, 51, 54);
 }
 
-.icon {
+.wd-icon {
     margin-right: 12px;
 }
 
-.font-size-15 {
+.wd-font-size-15 {
     font-size: 15px;
 }
 
-.fg-color-white {
+.wd-fg-color-white {
     color: white;
 }
 
-.fg-color-light-gray {
+.wd-fg-color-light-gray {
     color: rgb(110, 118, 125);
 }
 
-.bar {
+.wd-bar {
     color: white;
     display: flex;
     justify-content:flex-start;
 }
 
-.text {
+.wd-text {
     width: 100%;
 }
