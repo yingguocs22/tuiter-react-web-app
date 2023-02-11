@@ -172,6 +172,83 @@ input {
     padding: 5px;
 }
 
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.of {
+    object-fit: cover;
+}
+
+.wd-bottomleft {
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+}
+
+.wd-relative-position {
+    position: relative;
+}
+
+.wd-who-follow {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.wd-avatar-size {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.wd-follow-button {
+    font-size: 13px;
+    color: #fff;
+    background-color: #0d6efd;
+    border:none;
+}
+
+.wd-follow-title {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.wd-follow-holder {
+    font-size: 10px;
+    color: gray;
+}
+
+.wd-post-picture {
+    height: 60px;
+    width: 60px;
+}
+
+.wd-post-size {
+    font-size: 14px;
+}
+
+.wd-post-color-gray {
+    color:gray;
+}
+
+.wd-hidden-flow {
+    overflow: hidden;
+}
+
+.wd-no-border {
+    border:none;
+}
 
 
 
