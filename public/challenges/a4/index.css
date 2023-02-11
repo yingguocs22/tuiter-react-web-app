@@ -1,0 +1,168 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+    padding-top: 5px;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+    background-color: #F5F8FA;
+    border-color: #F5F8FA;
+}
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.of {
+    object-fit: cover;
+}
+
+.wd-bottomleft {
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+}
+
+.wd-relative-position {
+    position: relative;
+}
+
+.wd-who-follow {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.wd-avatar-size {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.wd-follow-button {
+    font-size: 13px;
+    color: #fff;
+    background-color: black;
+    border:none;
+    height: 28px;
+}
+
+.wd-follow-title {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.wd-follow-holder {
+    font-size: 12px;
+    color: gray;
+}
+
+.wd-post-picture {
+    height: 60px;
+    width: 60px;
+}
+
+.wd-post-size {
+    font-size: 14px;
+}
+
+.wd-post-color-gray {
+    color:gray;
+}
+
+.wd-hidden-flow {
+    overflow: hidden;
+}
+
+.wd-no-border {
+    border:none;
+}
+
+.wd-bg-tweet {
+    background-color: #1DA1F2;
+}
+
+.wd-ft-tweet {
+    color: #1DA1F2;
+}
+
+.wd-ft-gold {
+    color: goldenrod;
+}
+
+.wd-tweet-button {
+    color: #ffffff;
+    height: 40px;
+    border: none;
+}
+
+.wd-list-group-item {
+    position: relative;
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #212529;
+    text-decoration: none;
+    background-color: #fff;
+}
+
+.wd-active {
+    color: #282c34;
+    font-weight: bold;
+}
+
+.wd-button-border-tw {
+    border-bottom-style: solid;
+    border-bottom-color: #1DA1F2;
+}
+
+.wd-left-button-com {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+.wd-small-title {
+    font-size: 12px;
+    color: lightgrey;
+}
+
+.wd-small-font {
+    font-size: 12px;
+}
+
+.wd-mid-font {
+    font-size: 15px;
+}
+
+.list-group .list-group-item {
+    border:none;
+}
+
+.wd-post-border {
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.wd-follow-bg {
+    background-color: lightgrey;
+}
+
+#follow-list.list-group .list-group-item {
+    background-color: #F5F8FA;
+}
+
+#follow-list.list-group{
+    background-color: #F5F8FA;
+    border-radius: 20px;
+}
+
+
+
