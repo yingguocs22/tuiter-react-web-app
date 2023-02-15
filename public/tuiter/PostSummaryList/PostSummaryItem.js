@@ -4,7 +4,9 @@ const hasTopic = (post) => {
         <span class="wd-post-color-gray">${post.topic}</span><br/>
         `)
     } else {
-        return (``)
+        return (`
+        <span></span>
+        `)
     }
 }
 
@@ -31,7 +33,7 @@ const hasTweets = (post) => {
 
 const PostSummaryItem = (post) => {
     return(`
-        <li class="list-group-item d-flex justify-content-between align-items-center">
+        <li class="list-group-item d-flex justify-content-between align-items-start">
             <div class="wd-post-size">
                 ${hasTopic(post)}
                 <span><b>${post.userName}</b></span><i class="fas fa-check-circle ms-1"></i><span class="wd-post-color-gray"> - ${post.time}</span><br/>
