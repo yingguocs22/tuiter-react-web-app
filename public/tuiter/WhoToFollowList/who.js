@@ -1,13 +1,13 @@
 export default [
-    {   avatarIcon: 'java.jpg',
+    {   avatarIcon: '../images/java.jpg',
         userName: 'Java', handle: 'Java', },
-    {   avatarIcon: 'relativity%20space.jpg',
+    {   avatarIcon: '../images/relativity%20space.jpg',
         userName: 'Relativity Space',
         handle: 'relativityspace', },
-    {   avatarIcon: 'virgin_galactic.jpg',
+    {   avatarIcon: '../images/virgin_galactic.jpg',
         userName: 'Virgin Galactic',
         handle: 'virgingalactic', },
-    {   avatarIcon: 'nasa.jpg',
+    {   avatarIcon: '../images/nasa.jpg',
         userName: 'NASA', handle: 'NASA', },
-    {   avatarIcon: 'tesla.jpg',
+    {   avatarIcon: '../images/tesla.jpg',
         userName: 'Tesla', handle: 'Tesla', }, ];

@@ -35,7 +35,7 @@ const ExploreComponent = () => {
            <!-- image with overlaid text -->
             <div class="container-fluid wd-relative-position p-0 mt-2">
                 <img class="img-fluid of" src="https://techcrunch.com/wp-content/uploads/2019/09/Starship-Mk1-Day.jpg">
-                <p class="position-absolute text-white fs-3 fw-bold wd-bottomleft">SpaceX's Starship</p>
+                <p class="position-absolute text-dark fs-3 fw-bold wd-bottomleft">SpaceX's Starship</p>
             </div>
            
            ${PostSummaryList()}

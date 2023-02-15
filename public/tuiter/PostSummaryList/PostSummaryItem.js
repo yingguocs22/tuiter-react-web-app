@@ -39,7 +39,7 @@ const PostSummaryItem = (post) => {
                 ${hasTweets(post)}
             </div>
             <div class="ms-2">
-                <img src=${post.image} class="wd-post-picture" alt="...">
+                <img src=${post.image} class="wd-post-picture rounded" alt="...">
             </div>
         </li>
                

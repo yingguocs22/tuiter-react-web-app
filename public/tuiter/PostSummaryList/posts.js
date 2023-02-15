@@ -4,14 +4,14 @@ let exploreItems = [
         userName: 'ReactJS',
         time: '2h',
         title: 'React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs',
-        image: 'react_blue.jpg'
+        image: '../images/react_blue.jpg'
     },
     {
         topic: '',
         userName: 'JavaScript',
         time: '1 day',
         title: 'JavaScript is programming language that can run on browsers as well as desktops',
-        image: 'js.jpg',
+        image: '../images/js.jpg',
         tweets: '123K',
     },
     {
@@ -19,7 +19,7 @@ let exploreItems = [
         userName: '',
         title: 'jQuery',
         time: 'last week',
-        image: 'jquery.jpg',
+        image: '../images/jquery.jpg',
         tweets: '122K',
     },
     {
@@ -27,7 +27,7 @@ let exploreItems = [
         userName: 'NodeJS',
         title: '',
         time: 'last month',
-        image: 'nodeJS.jpg',
+        image: '../images/nodeJS.jpg',
         tweets: '120K',
     },
 ];
