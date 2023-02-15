@@ -33,12 +33,12 @@ body {
 
 .wd-float-left-10 {
     float: left;
-    width: 10%;
+    width: 12%;
 }
 
 .wd-float-left-90 {
     float: left;
-    width: 90%;
+    width: 88%;
 }
 
 .wd-float-done {
@@ -72,10 +72,6 @@ body {
     border-bottom-right-radius: 30px;
 }
 
-.wd-second-content-text {
-    color: gray;
-}
-
 .wd-icon-container {
     margin-right: 16px;
     margin-bottom: 12px;
@@ -86,13 +82,13 @@ body {
     float: left;
     width: 25%;
     decoration: none;
-    color: gray;
+    color: rgb(110, 118, 125);
 }
 
 .wd-icon-container a span {
     position: absolute;
     margin-left: 12px;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .wd-icon-container a.active {
@@ -115,6 +111,10 @@ body {
 
 .wd-fg-color-white {
     color: white;
+}
+
+.wd-fg-color-white-smoke {
+    color: darkgray;
 }
 
 .wd-fg-color-light-gray {
