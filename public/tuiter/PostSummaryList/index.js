@@ -1,5 +1,5 @@
 import PostSummaryItem from "./PostSummaryItem.js";
-import posts from "../PostSummaryList/posts.js"
+import posts from "./posts.js"
 const PostSummaryItemList = () => {
     return (`
            <ul class="list-group">
