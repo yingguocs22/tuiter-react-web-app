@@ -3,15 +3,18 @@ import navigations from "./nagivations.js";
 
 const NavigationSidebar = (active) => {
     return(`
-      <div class="list-group">
-      <ul>
+      <ul class="list-group">
          ${
         navigations.map(navigation => {
             return(NavigationItem(navigation, active));
         }).join('')
     }
       </ul>
-      </div>
+      
+    <div class="d-grid gap-2">
+        <button onclick="location.href='#'" class="btn btn-primary rounded-pill mt-2" type="button">Tweet</button>
+    </div>
+
    `);
 }
 export default NavigationSidebar;

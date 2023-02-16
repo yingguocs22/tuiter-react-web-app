@@ -214,19 +214,20 @@ input {
 
 .wd-follow-button {
     font-size: 13px;
+    height: 30px;
+    width: 5px;
     color: #fff;
     background-color: rgb(29,161,242);
     border:none;
 }
 
 .wd-follow-title {
-    font-size: 12px;
+    font-size: 15px;
     font-weight: bold;
 }
 
 .wd-follow-holder {
-    font-size: 10px;
-    color: gray;
+    font-size: 13px;
 }
 
 .wd-post-picture {
