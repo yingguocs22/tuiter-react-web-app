@@ -15,7 +15,7 @@ let exploreItems = [
         name: 'Explore',
     },
     {
-        href: '',
+        href: '../NotificationScreen/index.html',
         icon: 'fas fa-bell',
         name: 'Notifications',
     },
