@@ -20,22 +20,22 @@ let exploreItems = [
         name: 'Notifications',
     },
     {
-        href: '',
+        href: '../MessageScreen/index.html',
         icon: 'fas fa-envelope',
         name: 'Messages',
     },
     {
-        href: '',
+        href: '../BookmarksScreen/index.html',
         icon: 'fas fa-bookmark',
         name: 'Bookmarks',
     },
     {
-        href: '',
+        href: '../ListScreen/index.html',
         icon: 'fas fa-list',
         name: 'Lists',
     },
     {
-        href: '',
+        href: '../ProfileScreen/index.html',
         icon: 'fas fa-user',
         name: 'Profile',
     },
