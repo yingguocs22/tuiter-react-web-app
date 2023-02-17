@@ -3,7 +3,8 @@ const hasContent = (post) => {
         return (`
             <div>
                 <img class="wd-content-image-round" src=${post.image}/>
-            </div>
+            </div>           
+
         `)
     }
     return (`
@@ -40,8 +41,8 @@ const hasLink = (post) => {
 
 const PostItem = (post) => {
     return(`
-                <li class="list-group-item">          
-                    <div class="float-end">
+                <li class="list-group-item float-end">          
+                    <div>
                         <div class="wd-float-left-10">
                             <img class="wd-avatar" src=${post.avatar}/>
                         </div>
