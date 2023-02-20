@@ -17,6 +17,7 @@ const NavigationSidebar = (active) => {
 
    `);
 }
+
 export default NavigationSidebar;
 
 
