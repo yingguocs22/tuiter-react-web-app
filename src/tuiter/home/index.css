@@ -1,0 +1,134 @@
+body {
+    /*background-color: black;*/
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+}
+
+.wd-light-gray-solid-bottom-border {
+    border-bottom-color: rgb(47, 51, 54);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.wd-title {
+    font-size: 20px;
+    margin-left: 16px;
+    margin-top: 12px;
+}
+
+.wd-handle {
+    font-size: 13px;
+    margin-left: 16px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.wd-avatar {
+    text-align: center;
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+}
+
+.wd-float-left-10 {
+    float: left;
+    width: 12%;
+}
+
+.wd-float-left-90 {
+    float: left;
+    width: 88%;
+}
+
+.wd-float-done {
+    clear: both;
+}
+
+.wd-context {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(47, 51, 54);
+    border-radius: 30px;
+}
+
+.wd-content-image {
+    width: 100%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.wd-content-image-round {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.wd-second-content {
+    max-width: 100%;
+    padding: 12px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.wd-icon-container {
+    margin-right: 16px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.wd-icon-container a {
+    float: left;
+    width: 25%;
+    decoration: none;
+    color: rgb(110, 118, 125);
+}
+
+.wd-icon-container a span {
+    position: absolute;
+    margin-left: 12px;
+    font-size: 14px;
+}
+
+.wd-icon-container a.active {
+    color: mediumvioletred;
+}
+
+.wd-colored-hr {
+    margin: 0;
+    padding: 0;
+    border: 0.5px solid rgb(47, 51, 54);
+}
+
+.wd-icon {
+    margin-right: 12px;
+}
+
+.wd-font-size-15 {
+    font-size: 15px;
+}
+
+.wd-fg-color-white {
+    color: white;
+}
+
+.wd-fg-color-white-smoke {
+    color: darkgray;
+}
+
+.wd-fg-color-light-gray {
+    color: rgb(110, 118, 125);
+}
+
+.wd-bar {
+    color: white;
+    display: flex;
+    justify-content:flex-start;
+}
+
+.wd-text {
+    width: 100%;
+}
+
+.wd-back-bottom {
+    padding: 15px;
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import PostSummaryList from "../post-summary-list";
 import "./index.css";
-const ExploreComponent = () => {
+const Explore = () => {
     return(
         <>
             <div className="row justify-content-between align-items-center mb-2">
@@ -34,4 +34,4 @@ const ExploreComponent = () => {
         </>
     );
 };
-export default ExploreComponent;
+export default Explore;
