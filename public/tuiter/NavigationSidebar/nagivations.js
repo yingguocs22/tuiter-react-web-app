@@ -10,7 +10,7 @@ let exploreItems = [
         name: 'Home',
     },
     {
-        href: '../explore/index.html',
+        href: '../ExploreScreen/index.html',
         icon: 'fas fa-hashtag',
         name: 'Explore',
     },
