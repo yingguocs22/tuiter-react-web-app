@@ -58,7 +58,8 @@ function App() {
                 <Routes>
                     {/*<Route path="/labs"*/}
                     {/*       element={<Labs/>}/>*/}
-                    <Route index element={<Labs/>}/>
+                    {/*<Route index element={<Labs/>}/>*/}
+                    <Route path="/*" element={<Labs/>}/>
                     <Route path="/hello" element={<HelloWorld/>}/>
                     <Route path="/tuiter/*" element={<Tuiter/>}/>
                 </Routes>
