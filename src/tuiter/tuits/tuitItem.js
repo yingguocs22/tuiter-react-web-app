@@ -1,5 +1,7 @@
 import React from "react";
 import "../home/index.css";
+import {useDispatch} from "react-redux";
+import {deleteTuit} from "./tuits-reducer";
 
 const HomeItem = (
     {
@@ -21,6 +23,10 @@ const HomeItem = (
     }
 ) => {
     // language=JavaScript
+    const dispatch = useDispatch();
+    const deleteTuitHandler = (id) => {
+        dispatch(deleteTuit(id));
+    }
     return(
         <>
             <li className="list-group-item float-end">
@@ -37,7 +43,8 @@ const HomeItem = (
                                 <span className="wd-fg-color-light-gray"> {post.handle} • {post.time}</span>
                             </div>
                             <div>
-                                <i className="fas fa-ellipsis-h text-dark"/>
+                                <i className="bi bi-x-lg float-end"
+                                   onClick={() => deleteTuitHandler(post._id)}></i>
                             </div>
                         </div>
 
