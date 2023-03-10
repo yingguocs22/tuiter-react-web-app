@@ -4,7 +4,7 @@ import WhoToFollowList from "../who-to-follow-list";
 import PostSummaryItem from "../post-summary-list/post-summary-item";
 import PostSummaryList from "../post-summary-list";
 import WhatsHappening from "./whats-happening";
-import TuitsList from "./a7_home";
+import TuitsList from "../tuits/TuitsList";
 
 
 function HomeComponent() {
