@@ -3,7 +3,7 @@ import Explore from "../ExploreScreen/explore";
 import WhoToFollowList from "../who-to-follow-list";
 import PostSummaryItem from "../post-summary-list/post-summary-item";
 import PostSummaryList from "../post-summary-list";
-import Home from "./home";
+import A7_Home from "./a7_home";
 
 
 function HomeComponent() {
@@ -19,10 +19,11 @@ function HomeComponent() {
                 {/*</div>*/}
                 <div className="col-10 col-md-10 col-lg-8 col-xl-7"
                      style={{"position": "relative"}}>
-                    <Home/>
+                    <A7_Home/>
                 </div>
                 <div className="d-sm-none d-md-none d-lg-block col-lg-4 col-xl-5">
-                    <PostSummaryList/>
+                    {/*<PostSummaryList/>*/}
+                    <WhoToFollowList/>
                 </div>
             </div>
         </div>

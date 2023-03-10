@@ -12,40 +12,40 @@ const NavigationSidebar = () => {
             <a className="list-group-item">Tuiter</a>
 
             <Link to="/tuiter/home" className={`list-group-item ${active === 'home'?'active':''}`}>
-                Home
+                <i className="bi bi-house-door-fill me-1" /> Home
             </Link>
 
             <Link to="/tuiter/explore" className={`list-group-item ${active === 'explore'?'active':''}`}>
-                Explore
+                <i className="bi bi-hash me-1"/> Explore
             </Link>
 
             <Link to="/" className="list-group-item">
-                Labs
+                <i className="bi bi-asterisk me-1"/> Labs
             </Link>
 
             <a className={`list-group-item
                     ${active === 'notifications'?'active':''}`}>
-                Notifications
+                <i className="bi bi-bell me-1"/> Notifications
             </a>
             <a className={`list-group-item
                     ${active === 'messages'?'active':''}`}>
-                Messages
+                <i className="bi bi-envelope me-1"/> Messages
             </a>
             <a className={`list-group-item
                     ${active === 'bookmarks'?'active':''}`}>
-                Bookmarks
+                <i className="bi bi-bookmark me-1"/> Bookmarks
             </a>
             <a className={`list-group-item
                     ${active === 'lists'?'active':''}`}>
-                Lists
+                <i className="bi bi-card-list me-1"/> Lists
             </a>
             <a className={`list-group-item
                     ${active === 'profile'?'active':''}`}>
-                Profile
+                <i className="bi bi-person me-1"/> Profile
             </a>
             <a className={`list-group-item
                     ${active === 'more'?'active':''}`}>
-                More
+                <i className="bi bi-three-dots me-1"/> More
             </a>
         </div>
     );
