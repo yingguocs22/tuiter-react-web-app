@@ -3,7 +3,7 @@ import React from "react";
 import {useSelector} from "react-redux";
 import A7_HomeItem from "./a7_homeItem";
 
-const A7_Home = () => {
+const TuitsList = () => {
     const posts = useSelector(state => state.homes)
     return(
         <ul className="list-group">
@@ -15,4 +15,4 @@ const A7_Home = () => {
         </ul>
     );
 };
-export default A7_Home;
+export default TuitsList;
