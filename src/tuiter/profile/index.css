@@ -1,0 +1,58 @@
+.wd-banner {
+    width: 100%;
+}
+
+.wd-pos-relative-nudge-up-right {
+    width: 100%;
+    position: relative;
+    bottom: 50px;
+    left: 30px;
+    border-radius: 50%;
+}
+
+.wd-button-border {
+    border-style: solid;
+    border-color: lightgrey;
+    background-color: white;
+}
+
+.wd-icon {
+    margin-right: 16px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.wd-icon a {
+    float: left;
+    width: 25%;
+    decoration: none;
+    color: rgb(110, 118, 125);
+}
+
+.wd-icon a span {
+    position: absolute;
+    margin-left: 12px;
+    font-size: 14px;
+}
+
+.wd-title {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.wd-margin-left-0 {
+    margin-left: 0;
+}
+
+.wd-font-bold {
+    font-weight: bold;
+}
+
+.wd-content {
+    font-size: 14px;
+}
+
+.wd-appendfix {
+    font-size: 13px;
+    color: gray;
+}

@@ -1,7 +1,7 @@
 import React from "react";
 // import posts from './homePosts.json';
 import {useSelector} from "react-redux";
-import A7_HomeItem from "./tuitItem";
+import HomeItem from "./tuitItem";
 
 const TuitsList = () => {
     const posts = useSelector(state => state.tuits)
@@ -9,7 +9,7 @@ const TuitsList = () => {
         <ul className="list-group">
             {
                 posts.map(post =>
-                    <A7_HomeItem
+                    <HomeItem
                         key={post._id} post={post}/> )
             }
         </ul>
