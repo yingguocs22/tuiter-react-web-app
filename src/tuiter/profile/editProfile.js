@@ -8,7 +8,7 @@ const EditProfile = () => {
     // save and nagivate to profile
     const navigate = useNavigate();
     const navigateProfile = () => {
-        navigate('../profile-a7');
+        navigate('../profile');
     };
 
     let [userName, setUserName] = useState('');

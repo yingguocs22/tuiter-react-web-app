@@ -11,11 +11,11 @@ const NavigationSidebar = () => {
         <div className="list-group">
             <a className="list-group-item">Tuiter</a>
 
-            <Link to="/tuiter/home-a7" className={`list-group-item ${active === 'home'?'active':''}`}>
+            <Link to="/tuiter/home" className={`list-group-item ${active === 'home'?'active':''}`}>
                 <i className="bi bi-house-door-fill me-1" /> Home
             </Link>
 
-            <Link to="/tuiter/explore-a7" className={`list-group-item ${active === 'explore'?'active':''}`}>
+            <Link to="/tuiter/explore" className={`list-group-item ${active === 'explore'?'active':''}`}>
                 <i className="bi bi-hash me-1"/> Explore
             </Link>
 
@@ -39,7 +39,7 @@ const NavigationSidebar = () => {
                     ${active === 'lists'?'active':''}`}>
                 <i className="bi bi-card-list me-1"/> Lists
             </a>
-            <Link to="/tuiter/profile-a7" className={`list-group-item
+            <Link to="/tuiter/profile" className={`list-group-item
                     ${active === 'profile'?'active':''}`}>
                 <i className="bi bi-person me-1"/> Profile
             </Link>

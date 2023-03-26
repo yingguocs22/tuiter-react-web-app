@@ -22,7 +22,7 @@ const ProfileItem = (
 ) => {
     const navigate = useNavigate();
     const navigateEdit = () => {
-        navigate('../edit-profile-a7');
+        navigate('../edit-profile');
     };
     return(
         <li className="list-group-item">
