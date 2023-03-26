@@ -64,7 +64,7 @@ const HomeItem = (
                         <div className="wd-icon-container d-flex justify-content-between align-items-center wd-font-size-15">
                             <a href="#"><i className="bi bi-chat"/><span>{post.replies}</span></a>
                             <a href="#"><i className="bi bi-arrow-repeat"/><span>{post.retuits}</span></a>
-                            <a href="#"><i onClick={() => updateLikeHandler(post)} className={`fa-regular ${post.liked?'bi bi-heart-fill wd-like':'bi bi-heart'}`}/><span>{post.likes}</span></a>
+                            <i onClick={() => updateLikeHandler(post)} className={`fa-regular ${post.liked?'bi bi-heart-fill wd-like':'bi bi-heart'}`}/><span>{post.likes}</span>
                             <a href="#"><i className="bi bi-share"/><span>{post.share}</span></a>
                         </div>
                     </div>
