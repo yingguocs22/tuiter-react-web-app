@@ -76,7 +76,7 @@ body {
     margin-top: 12px;
 }
 
-.wd-icon-container i {
+.wd-icon-container a {
     float: left;
     width: 25%;
     decoration: none;
