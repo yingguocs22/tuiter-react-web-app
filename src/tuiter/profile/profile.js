@@ -5,14 +5,14 @@ import ProfileItem from "./profileItem";
 
 const Profile = () => {
     const infos = useSelector(
-        (state) => state.profile);
+        state => state.pros);
     return(
         <ul className="list-group">
             {
                 infos.map(info =>
                     <ProfileItem
                         key={info._id}
-                        who={info}/>
+                        info={info}/>
                 )
             }
         </ul>

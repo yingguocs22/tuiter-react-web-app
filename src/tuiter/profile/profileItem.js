@@ -1,11 +1,12 @@
 import React from "react";
 import "./index.css";
+import {useNavigate} from "react-router";
+
 
 const ProfileItem = (
     {
         info =
-            {   "firstName": "Ying",
-                "lastName": "Guo",
+            {   "name": "Ying Guo",
                 "handle": "@yingguo",
                 "profilePicture": "ying.jpg",
                 "bannerPicture": "background.jpg",
@@ -19,6 +20,10 @@ const ProfileItem = (
             }
     }
 ) => {
+    const navigate = useNavigate();
+    const navigateEdit = () => {
+        navigate('../edit-profile');
+    };
     return(
         <li className="list-group-item">
             <div className="row">
@@ -26,7 +31,7 @@ const ProfileItem = (
                     <i className="bi bi-arrow-left"></i>
                 </div>
                 <div className='col-11 float-start'>
-                    <span className="wd-title wd-margin-left-0">{info.firstName} {info.lastName}</span> <br/>
+                    <span className="wd-title wd-margin-left-0">{info.name}</span> <br/>
                     <span className="wd-appendfix">6,144 Tweets</span>
                 </div>
             </div>
@@ -38,12 +43,12 @@ const ProfileItem = (
                     <img className="wd-pos-relative-nudge-up-right" src={info.profilePicture}/>
                 </div>
                 <div className="col-9 mt-2">
-                    <button className="wd-button-border rounded-pill float-end wd-font-bold wd-content">Edit profile</button>
+                    <button onClick={navigateEdit} className="wd-button-border rounded-pill float-end wd-font-bold wd-content">Edit profile</button>
                 </div>
             </div>
 
             <div className="ms-3 me-3">
-                <span className="wd-title wd-margin-left-0">{info.firstName} {info.lastName}</span> <br/>
+                <span className="wd-title wd-margin-left-0">{info.name}</span> <br/>
                 <span className="wd-appendfix">{info.handle}</span> <br/><br/>
                 <span className="wd-content">{info.bio}</span> <br/>
             </div>

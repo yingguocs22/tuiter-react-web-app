@@ -16,6 +16,12 @@
     background-color: white;
 }
 
+.wd-save-button {
+    color: white;
+    background-color: black;
+    border-style: none;
+}
+
 .wd-icon {
     margin-right: 16px;
     margin-bottom: 12px;
@@ -55,4 +61,8 @@
 .wd-appendfix {
     font-size: 13px;
     color: gray;
+}
+
+.textarea-full {
+    width: 100%
 }

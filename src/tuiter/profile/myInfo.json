@@ -1,16 +1,15 @@
 [
   {
-  "firstName": "Ying",
-  "lastName": "Guo",
-  "handle": "@yingguo",
-  "profilePicture": "ying.jpg",
-  "bannerPicture": "background.jpg",
-  "bio": "CS student at Northeastern University.",
-  "website": "",
-  "location": "Sunnyvale, CA",
-  "dateOfBirth": "08/08/2008",
-  "dateJoined": "9/2021",
-  "followingCount": 340,
-  "followersCount": 223
-}
+    "name": "Ying Guo",
+    "handle": "@yingguo",
+    "profilePicture": "ying.jpg",
+    "bannerPicture": "background.jpg",
+    "bio": "CS student at Northeastern University.",
+    "website": "",
+    "location": "Sunnyvale, CA",
+    "dateOfBirth": "08/08/2008",
+    "dateJoined": "9/2021",
+    "followingCount": 340,
+    "followersCount": 223
+  }
 ]
