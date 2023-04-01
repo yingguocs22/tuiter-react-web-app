@@ -1,7 +1,8 @@
 import React from "react";
 import "../home/index.css";
 import {useDispatch} from "react-redux";
-import {deleteTuit, updateLike} from "./tuits-reducer";
+import {updateLike} from "./tuits-reducer";
+import {updateTuitThunk, deleteTuitThunk, updateDislikeThunk} from "../../services/tuits-thunks";
 
 const HomeItem = (
     {
@@ -25,8 +26,9 @@ const HomeItem = (
     // language=JavaScript
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
     }
+
     const updateLikeHandler = (post) => {
         dispatch(updateLike(post));
     }
@@ -42,7 +44,7 @@ const HomeItem = (
                     <div className="wd-float-left-90">
                         <div className="d-flex justify-content-between">
                             <div>
-                                <span>{post.userName}</span>
+                                <span>{post.username}</span>
                                 <i className="fas fa-check-circle ms-1"/>
                                 <span className="wd-fg-color-light-gray"> {post.handle} • {post.time}</span>
                             </div>
@@ -62,10 +64,17 @@ const HomeItem = (
 
 
                         <div className="wd-icon-container d-flex justify-content-between align-items-center wd-font-size-15">
-                            <a href="#"><i className="bi bi-chat"/><span>{post.replies}</span></a>
-                            <a href="#"><i className="bi bi-arrow-repeat"/><span>{post.retuits}</span></a>
-                            <a><i onClick={() => updateLikeHandler(post)} className={`fa-regular ${post.liked?'bi bi-heart-fill wd-like':'bi bi-heart'}`}/><span>{post.likes}</span></a>
-                            <a href="#"><i className="bi bi-share"/><span>{post.share}</span></a>
+                            <div><i className="bi bi-chat"/><span>{post.replies}</span></div>
+                            <div><i className="bi bi-arrow-repeat"/><span>{post.retuits}</span></div>
+                            <div><i onClick={() => dispatch(updateTuitThunk({
+                                ...post,
+                                likes: post.likes + 1
+                            }))} className="bi bi-heart-fill text-danger"/><span>{post.likes}</span></div>
+                            <div><i onClick={() => dispatch(updateDislikeThunk({
+                                ...post,
+                                dislikes: post.dislikes + 1
+                            }))} className="bi bi-hand-thumbs-down-fill"/><span>{post.dislikes}</span></div>
+                            <div><i className="bi bi-share"/><span>{post.share}</span></div>
                         </div>
                     </div>
                 </div>

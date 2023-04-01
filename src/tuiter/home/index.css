@@ -76,14 +76,15 @@ body {
     margin-top: 12px;
 }
 
-.wd-icon-container a {
+.wd-icon-container div {
     float: left;
     width: 25%;
     decoration: none;
     color: rgb(110, 118, 125);
+    margin-left: 12px;
 }
 
-.wd-icon-container a span {
+.wd-icon-container div span {
     position: absolute;
     margin-left: 12px;
     font-size: 14px;
