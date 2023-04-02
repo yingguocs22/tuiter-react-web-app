@@ -30,7 +30,35 @@ const HomeItem = (
     }
 
     const updateLikeHandler = (post) => {
-        dispatch(updateLike(post));
+        if (post.liked) {
+            dispatch(updateTuitThunk({
+                ...post,
+                likes: post.likes - 1,
+                liked: false
+            }))
+        } else {
+            dispatch(updateTuitThunk({
+                ...post,
+                likes: post.likes + 1,
+                liked: true
+            }))
+        }
+    }
+
+    const updateDisLikeHandler = (post) => {
+        if (post.disliked) {
+            dispatch(updateTuitThunk({
+                ...post,
+                dislikes: post.dislikes - 1,
+                disliked: false
+            }))
+        } else {
+            dispatch(updateTuitThunk({
+                ...post,
+                dislikes: post.dislikes + 1,
+                disliked: true
+            }))
+        }
     }
 
     return(
@@ -66,14 +94,8 @@ const HomeItem = (
                         <div className="wd-icon-container d-flex justify-content-between align-items-center wd-font-size-15">
                             <div><i className="bi bi-chat"/><span>{post.replies}</span></div>
                             <div><i className="bi bi-arrow-repeat"/><span>{post.retuits}</span></div>
-                            <div><i onClick={() => dispatch(updateTuitThunk({
-                                ...post,
-                                likes: post.likes + 1
-                            }))} className="bi bi-heart-fill text-danger"/><span>{post.likes}</span></div>
-                            <div><i onClick={() => dispatch(updateDislikeThunk({
-                                ...post,
-                                dislikes: post.dislikes + 1
-                            }))} className="bi bi-hand-thumbs-down-fill"/><span>{post.dislikes}</span></div>
+                            <div><i onClick={() => updateLikeHandler(post)} className={`fa-regular ${post.liked?'bi bi-heart-fill wd-like':'bi bi-heart'}`}/><span>{post.likes}</span></div>
+                            <div><i onClick={() => updateDisLikeHandler(post)} className={`fa-regular ${post.disliked?'bi bi-hand-thumbs-down-fill':'bi bi-hand-thumbs-down'}`}/><span>{post.dislikes}</span></div>
                             <div><i className="bi bi-share"/><span>{post.share}</span></div>
                         </div>
                     </div>
